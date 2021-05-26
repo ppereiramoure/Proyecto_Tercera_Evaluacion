@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8acc9388-884f-4967-9820-113b26bf3ad2" name="Default Changelist" comment="Puntuacion">
+    <list default="true" id="8acc9388-884f-4967-9820-113b26bf3ad2" name="Default Changelist" comment="Tabla">
+      <change afterPath="$PROJECT_DIR$/src/GuardarBD.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuardarBD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tetris.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tetris.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Piezas/LectorPuntucion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Logica/Tetris.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Logica/Tetris.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="master" />
+    <option name="BRANCH" value="Pablo" />
   </component>
   <component name="Git.Rebase.Settings">
     <option name="NEW_BASE" value="Pablo" />
@@ -28,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Pablo" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,15 +64,32 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/Sistema/Escritorio/sqlite-jdbc-3.7.2.jar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.5322129" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Tetris (1)">
+    <configuration name="Tetris (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Logica.Tetris" />
+      <module name="Tetris" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Logica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tetris" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.programacion.Tetris" />
       <module name="Tetris" />
@@ -94,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tetris (1)" />
         <item itemvalue="Application.Tetris" />
+        <item itemvalue="Application.Tetris (1)" />
         <item itemvalue="Application.Tetris" />
-        <item itemvalue="Application.Tetris" />
-        <item itemvalue="Application.Tetris" />
-        <item itemvalue="Application.Tetris" />
+        <item itemvalue="Application.Tetris (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -115,6 +137,14 @@
       <workItem from="1616402788861" duration="4167000" />
       <workItem from="1616519189210" duration="3224000" />
       <workItem from="1616526362887" duration="6756000" />
+      <workItem from="1616571358452" duration="173000" />
+      <workItem from="1616572124763" duration="586000" />
+      <workItem from="1616576406181" duration="13000" />
+      <workItem from="1616584450872" duration="628000" />
+      <workItem from="1617700428968" duration="109000" />
+      <workItem from="1621357664069" duration="179000" />
+      <workItem from="1621579674459" duration="84000" />
+      <workItem from="1622024636786" duration="4101000" />
     </task>
     <task id="LOCAL-00001" summary="Crear clase Tablero">
       <created>1615981376398</created>
@@ -214,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616542153835</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Tabla">
+      <created>1616546635282</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1616546635282</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +296,8 @@
     <MESSAGE value="Actualizacion" />
     <MESSAGE value="Completar filas" />
     <MESSAGE value="Puntuacion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Puntuacion" />
+    <MESSAGE value="Tabla" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tabla" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
