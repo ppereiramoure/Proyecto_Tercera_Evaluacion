@@ -29,7 +29,7 @@ public class Tablero {
             generarNuevaPieza();
 
         } catch (Exception e) {
-            System.out.println("A vuelto a haber un error");
+
         }
     }
 
@@ -37,7 +37,7 @@ public class Tablero {
         try {
             pieza = PiezaFactory.getPieza(generadorAleatorio.nextInt(6));
         } catch (Exception e) {
-            System.out.println("Un error sin mas");
+
         }
         pieza.moverDerecha();
     }
@@ -82,7 +82,7 @@ public class Tablero {
         Tile[][] nuevoCampo = transposeArray(campo);
         for (int i =fila-1; i >0; i--) {
             nuevoCampo[i+1]=nuevoCampo[i];
-            System.out.println(String.format("Fila %d movida a %d", i+1,i));
+
         }
         campo = transposeArray(nuevoCampo);
         puntuacion++;
@@ -179,9 +179,8 @@ public class Tablero {
             BufferedWriter bw = new BufferedWriter(fw);
             bw.append(nombre+" "+puntuacion+ "\n");
             bw.close();
-            System.out.println("Puntuación escrita");
+
         } catch (IOException ex) {
-            System.out.println("Error al escribir la puntuación en un fichero");
         }
         System.exit(0);
 

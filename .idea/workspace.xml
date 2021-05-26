@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8acc9388-884f-4967-9820-113b26bf3ad2" name="Default Changelist" comment="Puntuacion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Piezas/LectorPuntucion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Piezas/LectorPuntucion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Logica/Tablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Logica/Tablero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Logica/Tetris.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Logica/Tetris.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +72,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Tetris" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.programacion.Tetris" />
+      <option name="MAIN_CLASS_NAME" value="com.Logica.Tetris" />
       <module name="Tetris" />
       <extension name="coverage">
         <pattern>
@@ -81,13 +84,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,6 +120,7 @@
       <workItem from="1616402788861" duration="4167000" />
       <workItem from="1616519189210" duration="3224000" />
       <workItem from="1616526362887" duration="6756000" />
+      <workItem from="1622024991088" duration="564000" />
     </task>
     <task id="LOCAL-00001" summary="Crear clase Tablero">
       <created>1615981376398</created>
