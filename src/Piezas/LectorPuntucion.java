@@ -1,4 +1,4 @@
-package com.programacion;
+package Piezas;
 
 import javax.swing.*;
 import java.io.BufferedReader;
@@ -19,7 +19,7 @@ public class LectorPuntucion {
                 s += br.readLine()+"\n";
             }
         } catch (IOException ex) {
-            System.out.println("Error leyendo puntuación");
+
             return;
         }
         JOptionPane.showMessageDialog(null,s);
