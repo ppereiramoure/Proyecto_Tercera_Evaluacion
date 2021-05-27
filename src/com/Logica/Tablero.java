@@ -9,9 +9,17 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.Random;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class Tablero {
+    Connection con;
+
 
     public Tile[][] campo;
     public Pieza pieza;
@@ -21,6 +29,12 @@ public class Tablero {
     Random generadorAleatorio;
 
     public Tablero() {
+
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+        } catch (ClassNotFoundException ex) {
+            Logger.getLogger(Tablero.class.getName()).log(Level.SEVERE, null, ex);
+        }
         generadorAleatorio = new Random();
         level = 0;
         puntuacion = 0;
@@ -165,11 +179,28 @@ public class Tablero {
     }
 
     private void partidaFinalizada() {
+
+
+
+
         JOptionPane.showMessageDialog(null, "GAME OVER \n \n Tu puntuación es:" + puntuacion);
         //pedir nombre
         String nombre = JOptionPane.showInputDialog(null, "Cual es tu nombre?");
         //guardar nombre a un fichero
-        File ficheroRanking =new File("puntos.txt");
+
+        try {
+            con = DriverManager.getConnection("jdbc:mysql://localhost/puntaje","root","");
+
+            Statement stmt = con.createStatement();
+            stmt.executeUpdate("INSERT INTO records VALUES('"+nombre+"','"
+                   +puntuacion+"')");
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+
+
+
+       /* File ficheroRanking =new File("puntos.txt");
         try {
 
             if (!ficheroRanking.exists()) {
@@ -181,7 +212,7 @@ public class Tablero {
             bw.close();
 
         } catch (IOException ex) {
-        }
+        }*/
         System.exit(0);
 
 
