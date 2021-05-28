@@ -33,6 +33,10 @@ public class Panel extends JPanel {
                         case KeyEvent.VK_UP:
                             tablero.rotarPieza();
                             break;
+
+                        case KeyEvent.VK_DOWN:
+                                tablero.moverPiezaAbajo();
+                                break;
                     }
             }
         });
