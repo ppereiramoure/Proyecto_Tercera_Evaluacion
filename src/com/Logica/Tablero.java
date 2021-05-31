@@ -176,7 +176,8 @@ public class Tablero {
 
 
 
-        JOptionPane.showMessageDialog(null, "GAME OVER \n \n Tu puntuación es:" + puntuacion);
+        JOptionPane.showMessageDialog(null, "GAME OVER \n \n Tu puntuación es de: " + puntuacion
+        + " líneas");
         //pedir nombre
         String nombre = JOptionPane.showInputDialog(null, "Cual es tu nombre?");
         //guardar nombre a un fichero
@@ -191,9 +192,8 @@ public class Tablero {
 
             for (int i =0; rs.next()==true; i++){
 
-                marcador +=(rs.getString("Nome")+" "+rs.getString("Puntos")+"\n");
-
-               /* System.out.println(rs.getString("Nome")+ " "+rs.getInt("Puntos"));*/}
+                marcador +=("Puntuación de "+rs.getString("Nome")+": "+rs.getString("Puntos")+"\n");
+            }
             JOptionPane.showMessageDialog(null, marcador);
         } catch (SQLException throwables) {
             throwables.printStackTrace();

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8acc9388-884f-4967-9820-113b26bf3ad2" name="Default Changelist" comment="Proyecto retocado y por fin finalizado">
+    <list default="true" id="8acc9388-884f-4967-9820-113b26bf3ad2" name="Default Changelist" comment="Cambiando nombre a variables para que sean entendibles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaz/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaz/Ventana.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Logica/Tablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Logica/Tablero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +125,8 @@
       <workItem from="1622199096321" duration="4422000" />
       <workItem from="1622443447570" duration="4934000" />
       <workItem from="1622452375646" duration="6288000" />
-      <workItem from="1622474232555" duration="682000" />
+      <workItem from="1622474232555" duration="1669000" />
+      <workItem from="1622486759524" duration="2285000" />
     </task>
     <task id="LOCAL-00001" summary="Crear clase Tablero">
       <created>1615981376398</created>
@@ -252,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622464017081</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Cambiando nombre a variables para que sean entendibles">
+      <created>1622478790246</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1622478790246</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +310,8 @@
     <MESSAGE value="Creada key event para acelerar la caida de la pieza" />
     <MESSAGE value="Finalizado, falta retoques" />
     <MESSAGE value="Proyecto retocado y por fin finalizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proyecto retocado y por fin finalizado" />
+    <MESSAGE value="Cambiando nombre a variables para que sean entendibles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambiando nombre a variables para que sean entendibles" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
