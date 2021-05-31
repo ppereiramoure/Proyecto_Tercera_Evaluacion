@@ -2,7 +2,7 @@ package com.Logica;
 
 
 import Interfaz.Ventana;
-import Piezas.LectorPuntucion;
+
 
 
 public class Tetris {

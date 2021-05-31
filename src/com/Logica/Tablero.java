@@ -200,19 +200,6 @@ public class Tablero {
 
 
 
-       /* File ficheroRanking =new File("puntos.txt");
-        try {
-
-            if (!ficheroRanking.exists()) {
-                ficheroRanking.createNewFile();
-            }
-            FileWriter fw = new FileWriter(ficheroRanking,true);
-            BufferedWriter bw = new BufferedWriter(fw);
-            bw.append(nombre+" "+puntuacion+ "\n");
-            bw.close();
-
-        } catch (IOException ex) {
-        }*/
         System.exit(0);
 
 

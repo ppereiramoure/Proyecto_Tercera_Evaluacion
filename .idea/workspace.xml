@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8acc9388-884f-4967-9820-113b26bf3ad2" name="Default Changelist" comment="Clase de interfaz borrada, creado metodo de conexion y creado metodo para introducir">
+    <list default="true" id="8acc9388-884f-4967-9820-113b26bf3ad2" name="Default Changelist" comment="Creada key event para acelerar la caida de la pieza">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interfaz/Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaz/Panel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tetris.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tetris.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Interfaz/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaz/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Piezas/LectorPuntucion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Logica/Tablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Logica/Tablero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Logica/Tetris.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Logica/Tetris.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +65,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/ESCRITORIO/mysql-connector-java-8.0.25/mysql-connector-java-8.0.25/mysql-connector-java-8.0.25.jar" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/NetBeansProjects/Proyecto_Tercera_Evaluacion3/LibreriaBD/dist/LibreriaBD.jar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -71,7 +74,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -93,13 +96,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,7 +138,8 @@
       <workItem from="1622112363396" duration="473000" />
       <workItem from="1622137833739" duration="3047000" />
       <workItem from="1622184414629" duration="612000" />
-      <workItem from="1622199096321" duration="1531000" />
+      <workItem from="1622199096321" duration="4422000" />
+      <workItem from="1622443447570" duration="1890000" />
     </task>
     <task id="LOCAL-00001" summary="Crear clase Tablero">
       <created>1615981376398</created>
@@ -240,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622139595487</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Creada key event para acelerar la caida de la pieza">
+      <created>1622200673739</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1622200673739</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +299,8 @@
     <MESSAGE value="Completar filas" />
     <MESSAGE value="Puntuacion" />
     <MESSAGE value="Clase de interfaz borrada, creado metodo de conexion y creado metodo para introducir" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase de interfaz borrada, creado metodo de conexion y creado metodo para introducir" />
+    <MESSAGE value="Creada key event para acelerar la caida de la pieza" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creada key event para acelerar la caida de la pieza" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
