@@ -9,10 +9,7 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.Random;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -26,6 +23,7 @@ public class Tablero {
     int puntuacion;
     int level;
     int delay;
+    String s ="";
     Random generadorAleatorio;
 
     public Tablero() {
@@ -194,6 +192,14 @@ public class Tablero {
             Statement stmt = con.createStatement();
             stmt.executeUpdate("INSERT INTO records VALUES('"+nombre+"','"
                    +puntuacion+"')");
+            ResultSet rs = stmt.executeQuery("SELECT * FROM records");
+
+            for (int i =0; rs.next()==true; i++){
+
+                s+=(rs.getString("Nome")+" "+rs.getString("Puntos")+"\n");
+
+               /* System.out.println(rs.getString("Nome")+ " "+rs.getInt("Puntos"));*/}
+            JOptionPane.showMessageDialog(null,s);
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }

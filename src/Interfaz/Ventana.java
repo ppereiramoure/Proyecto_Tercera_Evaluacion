@@ -36,7 +36,7 @@ public class Ventana extends JFrame {
             add(panel);
 
             // Creamos el temporizador
-            Temporizador = new Timer(12000/180, new ActionListener(){
+            Temporizador = new Timer(1000/30, new ActionListener(){
                 public void actionPerformed(ActionEvent e) {
                     numFrames++;
                     if (numFrames%delay==0){
