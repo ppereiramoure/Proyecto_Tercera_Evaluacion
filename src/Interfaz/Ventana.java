@@ -28,8 +28,8 @@ public class Ventana extends JFrame {
             setSize(180, 360);
             setDefaultCloseOperation(EXIT_ON_CLOSE);
 
-            delay = 5;
-            numFrames = 0;
+            delay = 6;
+            numFrames = 30;
 
             tablero = new Tablero();
             Panel panel = new Panel(tablero);
